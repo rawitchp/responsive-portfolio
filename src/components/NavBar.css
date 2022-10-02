@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.nav-container {
+    background-color: black;
+    height: 80px;
+    width: 1440px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.02em;
+    z-index: 1;
+    top: 0;
+    position: sticky;
+}
+
+.nav-name {
+    padding: 250px;
+    letter-spacing: 0.10em;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    padding: 200px;
+}
+
+.nav-home,
+.nav-project,
+.nav-about,
+.nav-contact {
+    padding: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: text-decoration 3s;
+}
+
+.nav-home:hover,
+.nav-project:hover,
+.nav-about:hover,
+.nav-contact:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1.5px;
+}
+
+.hire-button {
+    /* height: 40px; */
+    border: 1px solid white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.hire-button:hover {
+    background-color: rgb(255, 110, 110);
+}

@@ -1,0 +1,22 @@
+.footer-container {
+    height: 100px;
+    background-color: black;
+}
+
+.footer-socialmedia {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-fb-logo,
+.footer-ig-logo,
+.footer-github-logo,
+.footer-linkedin-logo {
+    color: white;
+    /* padding: 20px; */
+    cursor: pointer;
+    opacity: 0.9;
+    margin: 0px 25px;
+}
